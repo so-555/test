@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自己紹介｜ミニゲーム付き</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">MY INTRO</div>
+    <nav class="nav-links">
+      <a href="#about">プロフィール</a>
+      <a href="#interests">興味関心</a>
+      <a href="#projects">プロジェクト</a>
+      <a href="game.html" class="game-link">ゲーム</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">こんにちは、はじめまして！</p>
+        <h1>クリエイティブな開発者の自己紹介サイト</h1>
+        <p class="lead">Webフロントエンドとクリエイティブな体験づくりが好きです。シンプルなUI、気持ちよいアニメーション、そして遊び心のある機能でプロダクトを成長させています。</p>
+        <div class="cta-row">
+          <a class="button primary" href="mailto:hello@example.com">連絡する</a>
+          <a class="button ghost" href="game.html">ゲームで遊ぶ</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="avatar">💡</div>
+        <h2>開発者メモ</h2>
+        <p>フロントエンド開発とUI/UXリサーチが専門。ユーザーテストから得た学びを、素早いプロトタイピングと改善に反映するのが得意です。</p>
+        <ul>
+          <li>TypeScript / React / Next.js</li>
+          <li>デザインシステム構築</li>
+          <li>楽しいインタラクション作り</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="card-grid">
+      <article class="card">
+        <h3>私について</h3>
+        <p>東京を拠点に、ユーザー視点のプロダクト開発に取り組んでいます。新しいツールを試すことと、効率化できる仕組みづくりが好きです。</p>
+      </article>
+      <article class="card">
+        <h3>得意なこと</h3>
+        <ul>
+          <li>UIの情報設計とワイヤーフレーム作成</li>
+          <li>コンポーネント設計とStorybook運用</li>
+          <li>パフォーマンスチューニングとテスト自動化</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="interests" class="highlight">
+      <div>
+        <h3>興味のある領域</h3>
+        <p>ユーザー体験に直結する要素を探求しています。マイクロインタラクションや音・振動を使ったフィードバック設計、そして誰もが使えるアクセシビリティ対応を追求中です。</p>
+      </div>
+      <div class="highlight-list">
+        <div class="pill">マイクロインタラクション</div>
+        <div class="pill">デザインシステム</div>
+        <div class="pill">Web Animations API</div>
+        <div class="pill">ユーザーテスト</div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="section-heading">
+        <h3>最近のアウトプット</h3>
+        <p>UI改善の実験やプロトタイプを作りながら、学びを記事やツールとして公開しています。</p>
+      </div>
+      <div class="project-list">
+        <article class="project-card">
+          <h4>UI実験ノート</h4>
+          <p>アニメーションのチューニング手法をまとめた小さなノート。コードスニペットとデモで再現性を高めています。</p>
+        </article>
+        <article class="project-card">
+          <h4>ショートカットまとめ</h4>
+          <p>毎日の開発で使うコマンドやエディタ操作を整理。チームに共有し、効率化のベースとして活用中。</p>
+        </article>
+        <article class="project-card accent">
+          <div class="project-card-header">
+            <div>
+              <h4>ミニゲーム</h4>
+              <p>集中力を鍛えるクリックゲームを実装。30秒で何回ターゲットを捕まえられるか挑戦できます。</p>
+            </div>
+            <a class="button ghost" href="game.html">遊んでみる →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2024 Creative Intro. ちょっとした遊び心を添えて。</p>
+    <div class="footer-links">
+      <a href="https://example.com" target="_blank" rel="noreferrer">Portfolio</a>
+      <a href="mailto:hello@example.com">Email</a>
+      <a href="game.html">ミニゲーム</a>
+    </div>
+  </footer>
+</body>
+</html>

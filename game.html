@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ミニゲーム｜集中力トレーニング</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">FOCUS SPRINT</div>
+    <nav class="nav-links">
+      <a href="index.html">ホーム</a>
+      <a href="#how-to">遊び方</a>
+      <a href="#score">スコア</a>
+    </nav>
+  </header>
+
+  <main class="game-layout">
+    <section class="game-header">
+      <div>
+        <p class="badge">🎮 集中力ゲーム</p>
+        <h1>30秒でいくつターゲットを捕まえられる？</h1>
+        <p class="instructions">ターゲットをクリックしてポイントを稼ぐシンプルな反射神経ゲームです。難しい操作は不要、クリックと集中力だけでスコアを伸ばせます。</p>
+      </div>
+      <div class="cta-row">
+        <button class="button primary" id="startButton">スタート</button>
+        <button class="button ghost" id="resetButton">リセット</button>
+      </div>
+    </section>
+
+    <section id="score" class="game-panel">
+      <div class="stats">
+        <div class="stat">
+          <div>残り時間</div>
+          <strong id="timeLabel">30 秒</strong>
+        </div>
+        <div class="stat">
+          <div>スコア</div>
+          <strong id="scoreLabel">0</strong>
+        </div>
+        <div class="stat">
+          <div>ベストスコア</div>
+          <strong id="bestLabel">0</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="game-panel">
+      <div class="game-header">
+        <div>
+          <h3 id="how-to">プレイエリア</h3>
+          <p class="instructions">ターゲットは定期的に位置を変えながら出現します。クリックすると即スコアが加算され、別の場所に移動します。時間切れになる前にたくさん捕まえましょう。</p>
+        </div>
+        <div class="badge">⌛ 30秒チャレンジ</div>
+      </div>
+      <div class="board" id="board"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>ホームに戻って自己紹介ページもぜひご覧ください。</p>
+    <div class="footer-links">
+      <a href="index.html">自己紹介サイトへ</a>
+      <a href="mailto:hello@example.com">連絡する</a>
+    </div>
+  </footer>
+
+  <script src="assets/game.js"></script>
+</body>
+</html>
